@@ -1,0 +1,8 @@
+.header-nav {
+  color: white;
+}
+.header-nav .nav-link:hover {
+  /* color: #8bb9fe !important; */
+  text-decoration: underline !important;
+  color: white !important;
+}

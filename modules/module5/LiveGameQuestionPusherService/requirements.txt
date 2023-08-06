@@ -1,0 +1,6 @@
+Flask
+flask-cors
+boto3
+gunicorn
+gevent
+requests

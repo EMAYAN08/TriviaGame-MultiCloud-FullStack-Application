@@ -1,0 +1,8 @@
+footer {
+  color: #ffd700 !important;
+  border-top: 1px solid #ffd70045 !important;
+}
+
+footer .nav {
+  --bs-link-color: #ffd700 !important;
+}

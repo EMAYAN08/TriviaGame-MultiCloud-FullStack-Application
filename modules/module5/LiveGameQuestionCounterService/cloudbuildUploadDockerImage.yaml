@@ -1,0 +1,14 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/sdp14repo/livegamequestioncounterimage', '.' ]
+
+# - name: 'gcr.io/cloud-builders/gcloud'
+#   args: ['run', 'deploy', 'livegamequestioncounter', '--image', 'us-central1-docker.pkg.dev/$PROJECT_ID/sdp14repo/livegamequestioncounterimage:latest', '--no-cache', '--region', 'us-central1', '--allow-unauthenticated','--port', '5000', --update-secrets=/googleauth/serverless_a2_key=sdp14googleauth:latest,
+#    --update-secrets=AWS_ACCESS_KEY_ID=aws_access_key_id:latest, --update-secrets=AWS_SECRET_ACCESS_KEY=aws_secret_access_key:latest,--update-secrets=AWS_SESSION_TOKEN=aws_session_token:latest,
+#    --update-secrets=AWS_DEFAULT_REGION=AWS_DEFAULT_REGION:latest, '--platform', 'managed']
+
+images:
+- 'us-central1-docker.pkg.dev/$PROJECT_ID/sdp14repo/livegamequestioncounterimage'
+
+
+

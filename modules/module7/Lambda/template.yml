@@ -1,0 +1,145 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Functions
+
+  Sample SAM Template for Functions
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 128
+
+Resources:
+  # Lambda function for adding a category
+  addCategory:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: category/add
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for retrieving all categories
+  getAllCategory:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: category/getAll
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for adding a question
+  addQuestion:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: question/add
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for deleting a question
+  deleteQuestion:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: question/delete
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for filtering questions based on criteria
+  filterQuestion:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: question/filter
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for updating a question
+  updateQuestion:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: question/update
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for filtering games based on criteria
+  filterGame:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/filter
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for adding a game
+  addGame:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/add
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for updating a game
+  updateGame:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/update
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function for deleting a game
+  deleteGame:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/delete
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function to get questions associated with a game
+  getGameQuestions:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/getQuestions
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+
+  # Lambda function to process game data
+  gameData:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: game/gameData
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64

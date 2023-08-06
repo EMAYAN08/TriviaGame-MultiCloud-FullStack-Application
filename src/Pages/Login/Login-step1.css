@@ -1,0 +1,7 @@
+.forgot-password {
+  font-size: large;
+}
+.forgot-password:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  questionTag
+
+  Sample SAM Template for questionTag
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 128
+
+Resources:
+  questionTag:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: "arn:aws:iam::159826900156:role/LabRole"
+      CodeUri: ./
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
