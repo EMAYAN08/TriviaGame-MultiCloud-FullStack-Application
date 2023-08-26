@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Trivia Titans: A Multi-Cloud Serverless TriviaGame
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Developed a dynamic multi-cloud trivia game, ”Trivia Titans,” offering real-time team-based competitions with adaptive
+questions tailored to user preferences.
+- Integrated AI-generated team management, chat features, and personalized leaderboards for an engaging experience.
+- Leveraged GCP Firebase for secure logins, AWS Comprehend for question tagging, and AWS Lex for chatbot assistance.
+Monitored and improved user engagement through advanced analytics tools like Looker Studio.
+- Complete tech stack of this project - Front-end - React, AWS - DynamoDB, Lambda, SQS, SNS, API Gateway, S3, Lex,
+Cloud Formation, GCP - Cloud Functions, Cloud Run, Firestore, Looker Studio, BigQuery.
 
-## Available Scripts
+## Demo Video
 
-In the project directory, you can run:
+- [Demo Video 1](./DemoVideo/SDP14_V1.mp4)
+- [Demo Video 2](./DemoVideo/SDP14_V5.mp4)
 
-### `npm start`
+## Architecture Diagrams
+Trivia Game Final Architecture
+![Demo Video 1](./Screenshots/FinalArchitecture.png)
+Trivia Lobby Architecture
+![Demo Video 2](./Screenshots/Architecture1.png)
+ 
+![Demo Video 2](./Screenshots/Architecture2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Lobby Workflow
+![Demo Video 2](./Screenshots/lobby1.png)
+Leaderboard Workflow
+![Demo Video 1](./Screenshots/leaderboard1.png)
+Trivia Lobby Home page
+![Demo Video 2](./Screenshots/1.png)
+ 
+![Demo Video 2](./Screenshots/2.png)
+ 
+![Demo Video 2](./Screenshots/3.png)
+ 
+![Demo Video 2](./Screenshots/4.png)
+ 
+![Demo Video 2](./Screenshots/5.png)
+ 
+![Demo Video 2](./Screenshots/6.png)
+ 
+![Demo Video 2](./Screenshots/7.png)
+ 
+![Demo Video 2](./Screenshots/8.png)
+ 
+![Demo Video 2](./Screenshots/9.png)
+ 
+![Demo Video 2](./Screenshots/10.png)
+ 
+![Demo Video 2](./Screenshots/11.png)
+ 
+![Demo Video 2](./Screenshots/12.png)
+ 
+![Demo Video 2](./Screenshots/13.png)
+ 
+![Demo Video 2](./Screenshots/14.png)
+ 
+![Demo Video 2](./Screenshots/15.png)
+ 
+![Demo Video 2](./Screenshots/16.png)
+ 
+![Demo Video 2](./Screenshots/17.png)
+ 
+![Demo Video 2](./Screenshots/mail.png)
+ 
+![Demo Video 2](./Screenshots/l1.png)
+ 
+![Demo Video 2](./Screenshots/l2.png)
+ 
+![Demo Video 2](./Screenshots/l3.png)
+ 
+![Demo Video 2](./Screenshots/l4.png)
+ 
+![Demo Video 2](./Screenshots/l5.png)
+ 
+![Demo Video 2](./Screenshots/l6.png)
+ 
+![Demo Video 2](./Screenshots/l7.png)
+ 
+![Demo Video 2](./Screenshots/l8.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
