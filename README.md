@@ -10,8 +10,8 @@ Cloud Formation, GCP - Cloud Functions, Cloud Run, Firestore, Looker Studio, Big
 
 ## Demo Video
 
-- [Demo Video 1](./DemoVideo/SDP14_V1.mp4)
-- [Demo Video 2](./DemoVideo/SDP14_V5.mp4)
+- [Demo Video 1](https://drive.google.com/file/d/1RsW9Kb6A-fTZifUmmYZ_xzIE09hm6klf/view?usp=sharing)
+- [Demo Video 2](https://drive.google.com/file/d/11eBkp9wrWyza90PN3NBUMq4aLMDki0C0/view?usp=sharing)
 
 ## Architecture Diagrams
 - Trivia Game Final Architecture
