@@ -6,7 +6,7 @@ questions tailored to user preferences.
 - Leveraged GCP Firebase for secure logins, AWS Comprehend for question tagging, and AWS Lex for chatbot assistance.
 Monitored and improved user engagement through advanced analytics tools like Looker Studio.
 - Complete tech stack of this project - Front-end - React, AWS - DynamoDB, Lambda, SQS, SNS, API Gateway, S3, Lex,
-Cloud Formation, GCP - Cloud Functions, Cloud Run, Firestore, Looker Studio, BigQuery.
+Cloud Formation, GCP - Cloud Functions, Cloud Run, Firestore, Looker Studio, and BigQuery.
 
 ## Demo Video
 
